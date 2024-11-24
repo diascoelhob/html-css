@@ -5,27 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex</title>
     <style>
+        * {
+            font-family: monospace;
+        }
         div.conteiner {
             background-color: rgb(226, 172, 167);
             display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
         }
 
         div.item {
             background-color: rgb(197, 221, 228);
             border: 1px solid black;
             flex: auto;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
     </div>
 </body>
 </html>
